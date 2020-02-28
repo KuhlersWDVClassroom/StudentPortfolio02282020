@@ -1,0 +1,102 @@
+html { font-family: 'Roboto', sans-serif;
+        text-align: center;}
+
+body { background-color: #0D5C63; 
+        color: #FFFFFA;
+        margin: 0px;}
+
+nav { position: relative;
+        color:#FFFFFA;
+        text-align: center;}
+
+h1 { background-color: #8ceefa; 
+        color: #FFFFFA;
+        padding: 10px;
+        text-align: center;}
+
+h2 { background-color: #78CDD7; 
+        color: #FFFFFA;
+        margin-left: 10%;
+        margin-right: 10%;}
+
+h3 { background-color: #78CDD7;
+        color: #FFFFFA;
+        margin-left: 10%;
+        margin-right: 10%;}
+
+h4 { margin-top: -5px;
+        margin-bottom: -5px;}
+
+p { padding: 5px 20%;
+        text-align: left;}
+        
+ul { list-style-position: inside;
+        padding: 5px 20%;}
+        
+li { text-align: left;}
+
+table { margin: 0 auto;
+        padding: 10px; 
+        width: 150px; 
+        margin: 0 5px; 
+        height: 150px; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;
+        border-collapse: collapse;}
+
+fieldset { border: none;}
+        
+a:link, a:visited { text-decoration: none; 
+        color:#FFFFFA;}
+        
+a:hover { text-decoration: none;
+        color: black;}
+
+footer { text-align: center;}
+
+#pic1 { text-align:  center;
+        padding: 10px 25%;
+        height: 50%;
+        width: 50%;}
+
+#space { margin-bottom: 40px;}
+
+.topimage { width: 50%;
+        height: 50%;
+        padding: 25px 25%;}
+
+.topimage#code { width: 25%;
+        height: 25%;}
+
+.linet { margin-top: 30px;}
+
+.lineb { margin-bottom: 20px;}
+
+input[type="text"], input[type="date"] { border: none;
+        border-bottom: #FFFFFA 2px solid;
+        background-color: #0D5C63;
+        color: #FFFFFA;}
+
+/*Dropdown menu*/
+.dropdown { text-decoration: none;
+        list-style-type: none;
+        text-align: left;
+        margin: 0px;
+        background-color: #8ceefa;
+        padding: 0;}
+
+#submenu { position: absolute;
+        padding: 5px;
+        text-align: left;
+        display: none;
+        background-color: #8ceefa;
+        border: black 1px solid;}
+
+#submenui { display: block;
+        width: 8em;
+        padding-left: 1em;
+        list-style-type: none;}
+
+#home:hover ul{ display: block;
+        list-style-type: none;}
