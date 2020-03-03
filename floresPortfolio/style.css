@@ -1,0 +1,37 @@
+
+body { background-color: #e6e6fa;
+     color: #191970;
+    font-size: larger;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 400;
+text-align: center; }
+    
+
+h1  { background-color: #191970;
+     color: crimson; 
+    text-align: center;} 
+
+h2{ background-color: #aeaed4;
+     color: crimson;
+     text-align: center;}
+nav { text-align: center;}
+
+blockquote { text-align: center;}
+
+footer { color: #191970;}
+
+li {float: left;}
+
+ol { padding-left: 40%;}
+
+div { padding-left: 40%;}
+
+.column { float: left;
+          width: 33.33%;
+          padding: 5px;}
+
+.row::after { content: "";
+               clear: both;
+               display: table;}
+
+.row { padding-left: 25%;}
